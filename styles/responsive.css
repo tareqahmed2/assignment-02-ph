@@ -5,7 +5,7 @@
 @media screen and (max-width: 576px) {
   .container {
     max-width: 353px;
-    margin: 30px auto;
+    margin: 0 auto;
   }
   .banner-left-container {
     max-width: 353px;
@@ -41,11 +41,13 @@
     margin: 0px;
   }
   .header {
+    padding: 0;
     background-color: rgba(0, 0, 0, 1);
-    padding-top: 3rem;
+  }
+  .header-container {
+    margin-top: 50px;
   }
   .header {
-    padding: 0 1.4rem;
   }
   .header-navbar-container {
   }
@@ -59,9 +61,6 @@
     border: none;
   }
   /* banner responsive start here */
-  body {
-    /* margin-top: -58px; */
-  }
   .header-banner-container {
     flex-direction: column;
     justify-content: center;
@@ -69,9 +68,17 @@
   .banner-right-container {
     margin: 0 auto;
   }
+  .banner-left-container {
+  }
+  .right-img {
+    /* border: 2px solid red; */
+  }
   .banner-left-container .banner-title h1 {
     font-size: 2.4rem;
     text-align: left;
+  }
+  .banner-left-container .banner-title h1 span {
+    font-size: 4rem;
   }
   .banner-title {
     max-width: 285px;
@@ -80,12 +87,10 @@
     justify-content: space-between;
   }
   .right-top-btn {
-    /* width: 150px; */
     right: 2%;
     top: 10%;
   }
   .right-bottom-btn {
-    /* width: 150px; */
     bottom: 40%;
     left: 0%;
   }
@@ -135,7 +140,7 @@
   .change-bottom-container {
     grid-template-columns: repeat(1, 1fr);
     /* border: 2px solid hotpink; */
-    margin: 0 auto;
+    margin: 40px auto;
     align-items: center;
     justify-items: center;
     row-gap: 2.5rem;
@@ -173,6 +178,9 @@
   .extra-mile-right-img img {
     width: 287px;
     height: 170px;
+    transform: scale(1);
+    object-fit: none;
+    object-position: 0% 0%;
   }
   .extra-mile-right-container {
     height: 170px;
