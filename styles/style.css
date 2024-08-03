@@ -644,6 +644,132 @@ tra5 .training-para-6 {
   font-size: 14px;
 }
 
+/* food section start */
+
+.food {
+  background: rgb(34, 34, 34);
+  margin: 50px auto;
+}
+
+.food-container {
+  max-width: 1060px;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.food-heading-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.food-top-left-container h4,
+.food-middle-left-container h4,
+.food-bottom-left-container h4 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+.food-top-right-container,
+.food-middle-right-container,
+.food-bottom-right-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.food-heading-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.food-top-container,
+.food-middle-container,
+.food-bottom-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.food-bottom-container {
+  border: 2px solid green;
+}
+
+.food-top-right-container,
+.food-middle-right-container,
+.food-bottom-right-container {
+  width: 100%;
+  border: 2px solid red;
+}
+
+.food-top-right-container figure,
+.food-middle-right-container figure,
+.food-bottom-right-container figure {
+  /* max-width: 200px;
+  height: 150px; */
+  width: 100%;
+  height: 150px;
+}
+
+.food-top-right-container figure img,
+.food-middle-right-container figure img,
+.food-bottom-right-container figure img {
+  /* max-width: 200px;
+  height: 150px; */
+  width: 100%;
+  height: 80%;
+}
+
+.food-top-right-container figure:hover,
+.food-middle-right-container figure:hover,
+.food-bottom-right-container figure:hover {
+  border: 1px solid gray;
+  box-shadow: 0px 5px 10px green;
+  transform: translateY(-10px);
+  transition: 0.2s;
+}
+
+.food-top-right-container figure,
+.food-middle-right-container figure,
+.food-bottom-right-container figure {
+  box-shadow: 0px 2px 2px white;
+}
+
+.food-top-right-container figure figcaption,
+.food-middle-right-container figure figcaption,
+.food-bottom-right-container figure figcaption {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-align: center;
+}
+
+.food-top-left-container p,
+.food-middle-left-container p,
+.food-bottom-left-container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.food-top-left-container,
+.food-middle-left-container,
+.food-bottom-left-container {
+  max-width: 40%;
+}
+
 /* bmi section start here */
 
 .bmi {
@@ -654,7 +780,7 @@ tra5 .training-para-6 {
 
 .bmi-container {
   max-width: 1060px;
-  margin: 0 auto;
+  margin: 50px auto;
   /* border: 2px solid darkslateblue; */
 }
 
