@@ -93,6 +93,13 @@
     color: rgba(250, 250, 249, 1);
     font-size: 1.2rem;
   }
+  .right-bottom-btn span {
+    position: relative;
+  }
+  .right-bottom-btn span .plbtn {
+    position: relative;
+    top: 0px;
+  }
   .right-top-btn p,
   .right-bottom-btn-content p {
   }
