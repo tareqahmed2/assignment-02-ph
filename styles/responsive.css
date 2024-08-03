@@ -1,6 +1,51 @@
+/* responsive for mobile */
+
+/* for everything responsive */
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 353px;
+    margin: 30px auto;
+  }
+  .banner-left-container {
+    max-width: 353px;
+  }
+  .change-top-container {
+    max-width: 318px;
+  }
+  .extra-mile-left-container {
+    max-width: 287px;
+  }
+  .extra-mile-right-img {
+    max-width: 287px;
+  }
+  .training-top-container {
+    max-width: 353px;
+  }
+  .bmi-top-text-container {
+    max-width: 353px;
+  }
+  .bmi-bottom-input-container form {
+    max-width: 354px;
+  }
+  .meet-container {
+    padding: 40px 0px;
+  }
+  .meet-top-container {
+    max-width: 390px;
+  }
+  .footer-top-left-container {
+    max-width: 317px;
+  }
+}
+
 /* navbar  responsive */
 
 @media screen and (max-width: 576px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
   .header {
     background-color: rgba(0, 0, 0, 1);
     padding-top: 3rem;
@@ -53,6 +98,10 @@
     /* width: 150px; */
     bottom: 40%;
     left: 0%;
+  }
+  .right-bottom-btn span .plbtn {
+    color: rgba(250, 250, 249, 1);
+    font-size: 1.2rem;
   }
   .right-top-btn p,
   .right-bottom-btn-content p {
@@ -325,7 +374,6 @@
 
 @media screen and (max-width: 576px) {
   .bmi {
-    max-width: 394px;
     margin: 0 auto;
   }
   .bmi-container {
@@ -349,9 +397,6 @@
     margin-bottom: 1rem;
   }
   .bmi-bottom-container {
-    max-width: 394px;
-    /* margin: 0 auto;
-        margin: 0px 0px; */
     flex-direction: column;
     align-items: space-between;
   }
