@@ -24,24 +24,18 @@
   }
   .bmi-top-text-container {
     max-width: 353px;
+    margin: 30px auto;
   }
   .bmi-bottom-input-container form {
     max-width: 354px;
   }
-  .meet-container {
-    padding: 40px 0px;
-  }
   .meet-top-container {
-    max-width: 390px;
+    max-width: 309px;
   }
   .footer-top-left-container {
     max-width: 317px;
   }
-}
-
-/* navbar  responsive */
-
-@media screen and (max-width: 576px) {
+  /* navbar  responsive */
   * {
     padding: 0px;
     margin: 0px;
@@ -64,11 +58,7 @@
   .header-navbar-container .navbar ul {
     border: none;
   }
-}
-
-/* banner responsive start here */
-
-@media screen and (max-width: 576px) {
+  /* banner responsive start here */
   body {
     /* margin-top: -58px; */
   }
@@ -121,11 +111,7 @@
   .right-top-btn p {
     font-size: 9px;
   }
-}
-
-/* responsive change section */
-
-@media screen and (max-width: 576px) {
+  /* responsive change section */
   .change-habit {
     margin-top: 0px;
     margin-bottom: 66px;
@@ -149,11 +135,7 @@
   }
   .habit-card-container {
   }
-}
-
-/* responsive extra mile */
-
-@media screen and (max-width: 576px) {
+  /* responsive extra mile */
   .extra-mile {
     max-width: 353px;
     margin-bottom: 66px;
@@ -181,10 +163,6 @@
     justify-content: center;
     align-items: center;
   }
-  .extra-mile-right-img {
-    /* max-width: 287px;
-        min-height: 170px; */
-  }
   .extra-mile-right-img img {
     width: 287px;
     height: 170px;
@@ -192,11 +170,7 @@
   .extra-mile-right-container {
     height: 170px;
   }
-}
-
-/* responsive training section */
-
-@media screen and (max-width: 576px) {
+  /* responsive training section */
   .training {
     margin: 0 auto;
   }
@@ -320,11 +294,7 @@
   .training-para-6 {
     font-size: 10px;
   }
-}
-
-/* responsive food section */
-
-@media screen and (max-width: 576px) {
+  /* responsive food section */
   .food-heading-container h3,
   .food-heading-container p {
     text-align: left;
@@ -368,27 +338,12 @@
   .food-bottom-left-container {
     max-width: 100%;
   }
-}
-
-/* responsive bmi section */
-
-@media screen and (max-width: 576px) {
+  /* responsive bmi section */
   .bmi {
     margin: 0 auto;
   }
-  .bmi-container {
-    margin: 0 auto;
-    /* border: 2px solid darkslateblue; */
-  }
   .bmi-top-container {
     margin: 0px 20px;
-  }
-  .bmi-top-text-container {
-    /* max-width: 353px; */
-    /* border: 2px solid purple; */
-    margin: 0 auto;
-    margin-bottom: 32px;
-    margin-top: 30px;
   }
   .bmi-top-text-container h3 {
     font-size: 2rem;
@@ -410,7 +365,6 @@
     margin: 0px 20px;
   }
   .bmi-bottom-input-container form {
-    max-width: 354px;
     margin-bottom: 52px;
     row-gap: 12px;
     column-gap: 12px;
@@ -421,18 +375,13 @@
   }
   .bmi-bottom-input-container form button {
   }
-}
-
-/* meet responsive */
-
-@media screen and (max-width: 576px) {
+  /* meet responsive */
   .meet {
     margin: 0 auto;
     /* border: 2px solid red; */
   }
   .meet-container {
     padding: 66px 20px;
-    /* border: 2px solid green; */
   }
   .meet-bg-1 {
     grid-column: 1 / span 3;
@@ -460,10 +409,6 @@
     grid-column: 1 / span 3;
     margin: 0 auto;
   }
-  .meet-top-container {
-    max-width: 309px;
-    /* border: 2px solid red; */
-  }
   .meet-top-container h3 {
     font-size: 32px;
     font-weight: 900;
@@ -475,11 +420,7 @@
     max-width: 353px;
     margin: 0 auto;
   }
-}
-
-/* footer responsive */
-
-@media screen and (max-width: 576px) {
+  /* footer responsive */
   .footer-container {
     padding-left: 20px;
     padding-right: 36px;
@@ -492,7 +433,6 @@
     margin-bottom: 70px;
   }
   .footer-top-left-container {
-    max-width: 317px;
     grid-column: 1 / span 3;
   }
   .footer-top-middle-container {
@@ -501,4 +441,9 @@
   .footer-top-right-container {
     grid-column: 1 / span 3;
   }
+  .container {
+    border: 1px solid greenyellow;
+  }
 }
+
+/* responsive for small mobile */
