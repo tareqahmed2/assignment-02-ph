@@ -4,36 +4,36 @@
 
 @media screen and (max-width: 576px) {
   .container {
-    max-width: 353px;
+    max-width: 22.06rem;
     margin: 0 auto;
   }
   .banner-left-container {
-    max-width: 353px;
+    max-width: 22.06rem;
   }
   .change-top-container {
-    max-width: 318px;
+    max-width: 19.87rem;
   }
   .extra-mile-left-container {
-    max-width: 287px;
+    max-width: 17.93rem;
   }
   .extra-mile-right-img {
-    max-width: 287px;
+    max-width: 17.93rem;
   }
   .training-top-container {
-    max-width: 353px;
+    max-width: 22.06rem;
   }
   .bmi-top-text-container {
-    max-width: 353px;
+    max-width: 22.06rem;
     margin: 30px auto;
   }
   .bmi-bottom-input-container form {
-    max-width: 354px;
+    max-width: 22.12rem;
   }
   .meet-top-container {
-    max-width: 309px;
+    max-width: 19.31rem;
   }
   .footer-top-left-container {
-    max-width: 317px;
+    max-width: 19.81rem;
   }
   /* navbar  responsive */
   * {
@@ -45,7 +45,7 @@
     background-color: rgba(0, 0, 0, 1);
   }
   .header-container {
-    margin-top: 50px;
+    margin-top: 3.1rem;
   }
   .header {
   }
@@ -112,35 +112,35 @@
   .right-btn {
   }
   .right-bottom-btn-content h5 {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
   .right-bottom-btn-content p {
-    font-size: 9px;
+    font-size: 0.6rem;
   }
   .right-top-btn h5 {
-    font-size: 30px;
+    font-size: 1.8rem;
   }
   .right-top-btn p {
-    font-size: 9px;
+    font-size: 0.6rem;
   }
   /* responsive change section */
   .change-habit {
     margin-top: 0px;
-    margin-bottom: 66px;
+    margin-bottom: 4.1rem;
     display: flex;
     justify-content: center;
   }
   .change-habit-container {
-    max-width: 338px;
+    max-width: 21.125rem;
   }
   .change-top-container h2 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
   }
   .change-bottom-container {
     grid-template-columns: repeat(1, 1fr);
     /* border: 2px solid hotpink; */
-    margin: 40px auto;
+    margin: 2.5rem auto;
     align-items: center;
     justify-items: center;
     row-gap: 2.5rem;
@@ -149,8 +149,8 @@
   }
   /* responsive extra mile */
   .extra-mile {
-    max-width: 353px;
-    margin-bottom: 66px;
+    max-width: 22.06rem;
+    margin-bottom: 4.1rem;
   }
   .extra-mile-container {
     flex-direction: column;
@@ -178,35 +178,34 @@
   .extra-mile-right-img img {
     width: 287px;
     height: 170px;
-    transform: scale(1);
-    object-fit: none;
-    object-position: 0% 0%;
+    object-fit: cover;
+    object-position: center;
   }
   .extra-mile-right-container {
-    height: 170px;
+    height: 10.6rem;
   }
   /* responsive training section */
   .training {
     margin: 0 auto;
   }
   .training-container {
-    max-width: 353px;
-    min-height: 128px;
+    max-width: 22.06rem;
+    min-height: 8rem;
     margin-bottom: 0px;
   }
   .training-para-container {
   }
   .img-container-1 {
-    width: 175px;
-    height: 128px;
+    width: 11rem;
+    height: 8rem;
     grid-column: 1 / span 7;
     width: 100%;
     background-position: center;
     background-size: cover;
   }
   .img-container-2 {
-    height: 128px;
-    width: 175px;
+    height: 8rem;
+    width: 11rem;
     grid-column: 8 / span 7;
     width: 100%;
     background-position: center;
@@ -219,23 +218,23 @@
     font-weight: 400;
   }
   .img-container-4 {
-    height: 128px;
-    width: 157px;
+    height: 8rem;
+    width: 10rem;
     grid-column: 1 / span 6;
     width: 100%;
     background-position: center;
     background-size: cover;
   }
   .para-container-5 {
-    margin-left: 10px;
+    margin-left: 0.6rem;
   }
   .training-para-5 {
     font-size: 1rem;
     font-weight: 400;
   }
   .img-container-5 {
-    height: 128px;
-    width: 200px;
+    height: 8rem;
+    width: 12.5rem;
     grid-column: 7 / span 8;
     width: 100%;
     background-position: center;
@@ -247,7 +246,7 @@
   .para-container-4,
   .para-container-5,
   .para-container-6 {
-    height: 128px;
+    height: 8rem;
     /* border: 2px solid red; */
   }
   .training-para-1,
@@ -266,48 +265,48 @@
     display: none;
   }
   .training-para-1 {
-    margin: 95px 72px 16px 16px;
+    margin: 6rem 5rem 1rem 1rem;
     font-weight: 500;
     font-size: 14px;
   }
   .training-para-2 {
-    margin: 25px 63px 86px 31px;
+    margin: 1.7rem 4rem 5.5rem 2rem;
     font-weight: 500;
     font-size: 14px;
   }
   .para-container-3 {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 0.6rem;
   }
   .training-para-3 {
-    margin: 95px 72px 16px 16px;
+    margin: 1.7rem 4rem 5.5rem 2rem;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   .para-container-4 {
     display: flex;
     align-items: center;
-    margin: 10px;
+    font-size: 0.9rem;
   }
   .training-para-4 {
-    font-size: 10px;
+    font-size: 0.9rem;
   }
   .para-container-5 {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 0.9rem;
   }
   .training-para-5 {
-    font-size: 10px;
+    font-size: 0.9rem;
   }
   .para-container-6 {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin: 0.9rem;
   }
   .training-para-6 {
-    font-size: 10px;
+    font-size: 0.9rem;
   }
   /* responsive food section */
   .food-heading-container h3,
@@ -315,7 +314,7 @@
     text-align: left;
   }
   .food-container {
-    max-width: 353px;
+    max-width: 22.06rem;
     padding: 0px;
   }
   .food-heading-container h3 {
@@ -330,7 +329,7 @@
   .food-middle-right-container,
   .food-bottom-right-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 0.9rem;
   }
   .food-heading-container p {
     font-size: 0.8rem;
@@ -358,7 +357,7 @@
     margin: 0 auto;
   }
   .bmi-top-container {
-    margin: 0px 20px;
+    margin: 0px 1.25rem;
   }
   .bmi-top-text-container h3 {
     font-size: 2rem;
@@ -371,18 +370,18 @@
     align-items: space-between;
   }
   .bmi-bottom-left-container {
-    padding: 34px 64px 34px 20px;
+    padding: 2.1rem 4rem 2.1rem 1.25rem;
   }
   .bmi-bottom-left-container h3 {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .bmi-bottom-right-container {
-    margin: 0px 20px;
+    margin: 0px 1.25rem;
   }
   .bmi-bottom-input-container form {
-    margin-bottom: 52px;
-    row-gap: 12px;
-    column-gap: 12px;
+    margin-bottom: 4.25rem;
+    row-gap: 0.75rem;
+    column-gap: 0.75rem;
   }
   .bmi-bottom-input-container form input,
   .select-1,
@@ -396,7 +395,7 @@
     /* border: 2px solid red; */
   }
   .meet-container {
-    padding: 66px 20px;
+    padding: 4.1rem 1.24rem;
   }
   .meet-bg-1 {
     grid-column: 1 / span 3;
@@ -425,27 +424,27 @@
     margin: 0 auto;
   }
   .meet-top-container h3 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 900;
   }
   .meet-top-container p {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   .meet-bottom-container {
-    max-width: 353px;
+    max-width: 22.06rem;
     margin: 0 auto;
   }
   /* footer responsive */
   .footer-container {
-    padding-left: 20px;
-    padding-right: 36px;
+    padding-left: 1.25rem;
+    padding-right: 2.25rem;
     margin: 0 auto;
   }
   .footer-top-container {
     gap: 30px;
     justify-items: start;
-    max-width: 353px;
-    margin-bottom: 70px;
+    max-width: 22.06rem;
+    margin-bottom: 4.33rem;
   }
   .footer-top-left-container {
     grid-column: 1 / span 3;

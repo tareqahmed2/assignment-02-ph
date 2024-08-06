@@ -9,7 +9,7 @@
 /* #res */
 
 .container {
-  max-width: 1060px;
+  max-width: 66.25rem;
   margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ button {
 /* #res */
 
 .header-container {
-  min-height: 715px;
+  min-height: 44.68rem;
   margin: 0 auto;
 }
 
@@ -68,7 +68,7 @@ button {
   list-style-type: none;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 2.5rem;
-  padding: 10px 15px;
+  padding: 0.625rem 0.93rem;
 }
 
 .header-navbar-container ul li a {
@@ -76,14 +76,12 @@ button {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
 }
 
 .header-container ul li a span {
   border-radius: 3rem;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   background-color: rgb(230, 83, 60);
 }
 
@@ -110,7 +108,7 @@ button {
 /* #res */
 
 .banner-left-container {
-  max-width: 520px;
+  max-width: 32.5rem;
 }
 
 .banner-left-container .banner-title h1 {
@@ -156,7 +154,7 @@ button {
 .right-btn {
   border-radius: 2.5rem;
   color: rgb(255, 255, 255);
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,8 +165,8 @@ button {
 /* #res */
 
 .right-img {
-  width: 349px;
-  min-height: 580px;
+  width: 21.81rem;
+  min-height: 36.25rem;
   /* border: 2px solid red; */
   display: flex;
   align-items: flex-end;
@@ -205,7 +203,7 @@ button {
 
 .right-bottom-btn span .plbtn {
   position: absolute;
-  top: -134px;
+  top: -8.375rem;
 }
 
 .right-bottom-btn {
@@ -216,7 +214,7 @@ button {
   display: flex;
   align-content: center;
   gap: 0.5rem;
-  padding: 10px 10px;
+  padding: 0.625rem 1.25rem;
   position: absolute;
   bottom: 15%;
   left: -20%;
@@ -227,8 +225,6 @@ button {
   color: rgb(250, 250, 249);
   font-size: 1.5rem;
   font-weight: 900;
-  line-height: 24px;
-  letter-spacing: 0.3px;
   margin-bottom: 0.5rem;
   text-align: left;
 }
@@ -270,7 +266,6 @@ button {
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.8rem;
   font-weight: 400;
-  line-height: 20px;
   letter-spacing: 1px;
   text-align: left;
 }
@@ -286,7 +281,7 @@ button {
 /* #res */
 
 .change-top-container {
-  max-width: 671px;
+  max-width: 41.93rem;
   /* border: 2px solid red; */
   margin: 0 auto;
   margin-bottom: 4.5rem;
@@ -310,8 +305,8 @@ button {
 /* #res */
 
 .habit-card-container {
-  width: 231px;
-  height: 274px;
+  width: 14.43rem;
+  height: 17.12rem;
   /* border: 2px solid blueviolet; */
   display: flex;
   flex-direction: column;
@@ -331,7 +326,6 @@ button {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.3px;
   text-align: center;
 }
 
@@ -348,7 +342,7 @@ button {
 /* extramile start here */
 
 .extra-mile {
-  border-radius: 18px;
+  border-radius: 1.1rem;
   background: rgb(34, 34, 34);
   /* border: 2px solid red; */
   margin-bottom: 100px;
@@ -361,13 +355,13 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 165px;
+  gap: 10.28rem;
 }
 
 /* #res */
 
 .extra-mile-left-container {
-  max-width: 410px;
+  max-width: 25rem;
 }
 
 .extra-mile-left-container h2 {
@@ -403,8 +397,8 @@ button {
 /* #res */
 
 .extra-mile-right-img {
-  max-width: 366px;
-  height: 312px;
+  max-width: 22.87rem;
+  height: 19.5rem;
 }
 
 .extra-mile-right-img img {
@@ -427,13 +421,13 @@ button {
 }
 
 .training-container {
-  margin-bottom: 88px;
+  margin-bottom: 5.5rem;
 }
 
 /* #res */
 
 .training-top-container {
-  max-width: 671px;
+  max-width: 41.93rem;
   margin-bottom: 3.7rem;
 }
 
@@ -462,7 +456,7 @@ button {
 
 .img-container-1 {
   width: 100%;
-  height: 218px;
+  height: 13.62rem;
   grid-column: 1 / span 4;
   background-image: linear-gradient(
       to bottom,
@@ -478,8 +472,8 @@ button {
 /* #res */
 
 .training-para-1 {
-  max-width: 323px;
-  min-height: 218px;
+  max-width: 20.18rem;
+  min-height: 13.62rem;
   color: rgb(0, 0, 0);
   font-size: 1rem;
   font-weight: 800;
@@ -493,7 +487,7 @@ button {
 
 .img-container-2 {
   width: 100%;
-  height: 218px;
+  height: 13.62rem;
   grid-column: 5 / span 6;
   background-image: linear-gradient(
       to left,
@@ -520,7 +514,7 @@ button {
 
 .img-container-3 {
   width: 100%;
-  height: 218px;
+  height: 13.62rem;
   grid-column: 11 / span 5;
   background-image: linear-gradient(
       to left,
@@ -538,10 +532,10 @@ button {
   font-size: 1rem;
   font-weight: 500;
   text-align: left;
-  padding-top: 146px;
-  padding-left: 26px;
-  padding-right: 8px;
-  padding-bottom: 22px;
+  padding-top: 9.125rem;
+  padding-left: 1.625rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1.33rem;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -563,9 +557,9 @@ button {
 }
 
 .para-container-4 {
-  margin-top: 26px;
-  margin-bottom: 150px;
-  margin-left: 220px;
+  margin-top: 1.55rem;
+  margin-bottom: 9.48rem;
+  margin-left: 13.7rem;
 }
 
 .training-para-4 {
@@ -577,7 +571,7 @@ button {
 
 .img-container-5 {
   width: 100%;
-  height: 218px;
+  height: 13.62rem;
   grid-column: 7 / span 3;
   background-image: linear-gradient(
       to left,
@@ -598,10 +592,10 @@ button {
   font-size: 1rem;
   width: 100%;
   font-weight: 500;
-  margin-top: 143px;
-  margin-left: 26px;
-  margin-right: 78px;
-  margin-bottom: 23px;
+  margin-top: 8.93rem;
+  margin-left: 1.625rem;
+  margin-right: 4.8rem;
+  margin-bottom: 1.43rem;
 }
 
 .training-para-1,
@@ -609,13 +603,13 @@ button {
 .training-para-3,
 .training-para-4,
 tra5 .training-para-6 {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
 .img-container-6 {
   width: 100%;
-  height: 218px;
+  height: 13.62rem;
   grid-column: 10 / span 6;
   background-image: linear-gradient(
       to left,
@@ -633,27 +627,27 @@ tra5 .training-para-6 {
   font-size: 1rem;
   font-weight: 500;
   text-align: left;
-  padding-top: 141px;
-  padding-left: 26px;
-  padding-bottom: 24px;
-  padding-right: 78px;
+  padding-top: 8.81rem;
+  padding-left: 1.625rem;
+  padding-bottom: 1.5rem;
+  padding-right: 5rem;
 }
 
 .training-para-container ~ p {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 /* food section start */
 
 .food {
   background: rgb(34, 34, 34);
-  margin: 50px auto;
+  margin: 3.1rem auto;
 }
 
 .food-container {
-  border-radius: 5px;
-  padding: 20px;
+  border-radius: 0.333rem;
+  padding: 1.25rem;
 }
 
 .food-heading-container h3 {
@@ -679,7 +673,7 @@ tra5 .training-para-6 {
 .food-bottom-right-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 0.9rem;
 }
 
 .food-heading-container p {
@@ -695,7 +689,7 @@ tra5 .training-para-6 {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
-  gap: 60px;
+  gap: 4.52rem;
 }
 
 .food-bottom-container {
@@ -711,7 +705,7 @@ tra5 .training-para-6 {
 .food-middle-right-container figure,
 .food-bottom-right-container figure {
   width: 100%;
-  height: 150px;
+  height: 9.55rem;
 }
 
 .food-top-right-container figure img,
@@ -725,7 +719,7 @@ tra5 .training-para-6 {
 .food-middle-right-container figure:hover,
 .food-bottom-right-container figure:hover {
   border: 1px solid gray;
-  box-shadow: 0px 5px 10px green;
+  box-shadow: 0px 0.333rem 0.7rem green;
   transform: translateY(-10px);
   transition: 0.2s;
 }
@@ -764,8 +758,8 @@ tra5 .training-para-6 {
 }
 
 .food-hr {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   color: rgb(102, 189, 102);
 }
 
@@ -774,9 +768,9 @@ tra5 .training-para-6 {
 /* #res */
 
 .bmi-top-text-container {
-  max-width: 671px;
+  max-width: 41.93rem;
   margin: 0 auto;
-  margin-bottom: 88px;
+  margin-bottom: 5.5rem;
 }
 
 .bmi-top-text-container h3 {
@@ -810,8 +804,8 @@ tra5 .training-para-6 {
 
 .bmi-bottom-left-container h3 {
   color: #ffffff;
-  padding: 52px 0px;
-  font-size: 28px;
+  padding: 3.25rem 0px;
+  font-size: 1.75rem;
   font-weight: 900;
 }
 
@@ -824,7 +818,7 @@ td {
 
 .bmi-bottom-left-container th,
 td {
-  padding: 14px;
+  padding: 0.9rem;
   text-align: left;
 }
 
@@ -834,7 +828,7 @@ td {
 }
 
 .bmi-bottom-left-container table tbody tr td {
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #ffffff;
   opacity: 0.5;
 }
@@ -842,22 +836,22 @@ td {
 /* #res */
 
 .bmi-bottom-right-container {
-  max-width: 577px;
+  max-width: 36.06rem;
 }
 
 .bmi-bottom-right-container h3 {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 900;
   padding: 52px 0px 14px 0px;
 }
 
 .bmi-bottom-right-container p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   opacity: 0.5;
-  margin-bottom: 34px;
+  margin-bottom: 2.13rem;
 }
 
 /* #res */
@@ -868,13 +862,13 @@ td {
   margin-bottom: 52px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 12px;
-  column-gap: 12px;
+  row-gap: 0.75rem;
+  column-gap: 0.75rem;
 }
 
 #input-1 {
   grid-column: 1 / span 1;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   color: rgba(255, 255, 255, 0.6);
@@ -882,7 +876,7 @@ td {
 
 #input-2 {
   grid-column: 2 / span 1;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   color: rgba(255, 255, 255, 0.6);
@@ -890,7 +884,7 @@ td {
 
 #input-3 {
   grid-column: 1 / span 1;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   color: rgba(255, 255, 255, 0.6);
@@ -899,7 +893,7 @@ td {
 .select-1 {
   grid-column: 2 / span 1;
   /* border: 2px solid skyblue; */
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   color: rgba(255, 255, 255, 0.6);
@@ -909,8 +903,8 @@ td {
 
 .select-2 {
   grid-column: 1 / span 2;
-  margin-bottom: 34px;
-  border-radius: 8px;
+  margin-bottom: 2.13rem;
+  border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   color: rgba(255, 255, 255, 0.6);
@@ -931,7 +925,7 @@ td {
 .select-1,
 .select-2 {
   width: 100%;
-  padding: 13px 0px 13px 20px;
+  padding: 0.77rem 0px 0.77rem 1.33rem;
 }
 
 select {
@@ -939,8 +933,7 @@ select {
   background: transparent;
   border: none;
   color: rgba(255, 255, 255, 0.6);
-  line-height: 22px;
-  margin-right: 20px;
+  margin-right: 1.33rem;
 }
 
 select option {
@@ -949,11 +942,11 @@ select option {
 
 .bmi-bottom-input-container form button {
   background-color: rgba(230, 83, 60, 1);
-  border-radius: 42px;
+  border-radius: 2.67rem;
   color: #ffffff;
   padding: 1rem 0px;
   grid-column: 1 / span 1;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 600;
   border: none;
   cursor: pointer;
@@ -964,28 +957,28 @@ select option {
 /* #res */
 
 .meet-container {
-  padding: 88px 0px;
+  padding: 5.5rem 0px;
 }
 
 /* #res */
 
 .meet-top-container {
-  max-width: 671px;
+  max-width: 41.93rem;
   margin: 0 auto;
-  margin-bottom: 58px;
+  margin-bottom: 3.62rem;
   text-align: center;
 }
 
 .meet-top-container h3 {
-  font-size: 48px;
+  font-size: 3rem;
   color: #ffffff;
   font-weight: 900;
   text-align: center;
-  margin-bottom: 14px;
+  margin-bottom: 0.9rem;
 }
 
 .meet-top-container p {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   color: #ffffff;
   opacity: 0.5;
@@ -994,7 +987,7 @@ select option {
 
 .meet-bottom-container {
   background-color: rgba(25, 25, 25, 1);
-  border-radius: 18px;
+  border-radius: 1.1rem;
 }
 
 .meet-bg-1,
@@ -1003,8 +996,8 @@ select option {
 .meet-bg-4,
 .meet-bg-5,
 .meet-bg-6 {
-  height: 272px;
-  border-radius: 18px;
+  height: 17rem;
+  border-radius: 1.1rem;
   width: 100%;
 }
 
@@ -1014,7 +1007,7 @@ select option {
 .meet-bg-4 p,
 .meet-bg-5 p,
 .meet-bg-6 p {
-  font-size: 20px;
+  font-size: 1.33rem;
   color: #ffffff;
   margin-bottom: 3px;
   font-weight: 900;
@@ -1026,22 +1019,22 @@ select option {
 .meet-bg-4 span,
 .meet-bg-5 span,
 .meet-bg-6 span {
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #ffffff;
   opacity: 0.5;
   font-weight: 400;
 }
 
 .meet-bg-1 .meet-bg-text-content-1 {
-  margin: 212px 10px 16px 19px;
+  margin: 13.25rem 0.625rem 1rem 1.22rem;
 }
 
 .meet-bg-2 .meet-bg-text-content-2 {
-  margin: 212px 10px 16px 19px;
+  margin: 13.25rem 0.625rem 1rem 1.22rem;
 }
 
 .meet-bg-3 .meet-bg-text-content-3 {
-  margin: 212px 98px 16px 19px;
+  margin: 13.25rem 6.1rem 1rem 1.22rem;
 }
 
 .meet-bg-4 .meet-bg-text-content-4 {
