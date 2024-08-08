@@ -34,7 +34,7 @@ button {
 .header {
   padding-top: 3rem;
   background: linear-gradient(
-    180deg,
+    90deg,
     rgb(17, 17, 17),
     rgba(119, 119, 119, 0) 100%
   );
@@ -43,7 +43,6 @@ button {
 /* #res */
 
 .header-container {
-  min-height: 44.68rem;
   margin: 0 auto;
 }
 
