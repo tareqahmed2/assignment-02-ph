@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+.display {
+  display: none;
+}
+
 body {
   background-color: rgba(0, 0, 0, 1);
 }
@@ -164,7 +168,7 @@ button {
 /* #res */
 
 .right-img {
-  width: 21.81rem;
+  max-width: 21.81rem;
   min-height: 36.25rem;
   /* border: 2px solid red; */
   display: flex;
@@ -173,8 +177,9 @@ button {
 }
 
 .right-img img {
+  max-width: 100%;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   /* object-fit: cover; */
 }
 

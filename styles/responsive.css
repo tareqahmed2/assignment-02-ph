@@ -18,6 +18,7 @@
   }
   .extra-mile-right-img {
     max-width: 17.93rem;
+    height: 170px;
   }
   .training-top-container {
     max-width: 22.06rem;
@@ -48,6 +49,7 @@
   .header {
   }
   .header-navbar-container {
+    max-width: 353px;
   }
   .header-navbar-container ul li {
     display: none;
@@ -149,17 +151,21 @@
   .extra-mile {
     max-width: 22.06rem;
     margin-bottom: 4.1rem;
+    /* border: 2px solid green; */
   }
   .extra-mile-container {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
     padding: 2rem;
+    margin: 0 auto;
+    /* border: 2px solid red; */
   }
   .extra-mile-left-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 2px solid grey; */
     /* align-items: center; */
   }
   .extra-mile-left-container h2 {
@@ -174,9 +180,9 @@
     align-items: center;
   }
   .extra-mile-right-img img {
-    width: 287px;
+    width: 260px;
     height: 170px;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
   }
   .extra-mile-right-container {
