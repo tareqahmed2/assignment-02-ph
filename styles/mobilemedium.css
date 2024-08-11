@@ -1,0 +1,107 @@
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .banner-left-container {
+    max-width: auto;
+  }
+  .change-top-container {
+    max-width: auto;
+  }
+  .extra-mile-left-container {
+    max-width: auto;
+  }
+  .extra-mile-right-img {
+    max-width: auto;
+    height: 170px;
+  }
+  .training-top-container {
+    max-width: auto;
+  }
+  .bmi-top-text-container {
+    max-width: auto;
+    margin: 30px auto;
+  }
+  .bmi-bottom-input-container form {
+    max-width: auto;
+  }
+  .meet-top-container {
+    max-width: auto;
+  }
+  .footer-top-left-container {
+    max-width: auto;
+  }
+  .header-navbar-container {
+    max-width: auto;
+  }
+  .banner-title {
+    max-width: auto;
+  }
+  .change-habit-container {
+    max-width: auto;
+  }
+  .food-heading-container h3 {
+    padding-top: 66px;
+  }
+  .extra-mile-right-img img {
+    width: auto;
+  }
+  .training-container {
+    max-width: auto;
+  }
+  .img-container-1 {
+    width: auto;
+  }
+  .img-container-2 {
+    width: auto;
+  }
+  .food-container {
+    max-width: auto;
+  }
+  .footer-top-container {
+    max-width: auto;
+  }
+  .footer-top-left-container {
+    max-width: auto;
+  }
+  .extra-mile-right-img {
+    display: flex;
+    justify-content: center;
+  }
+  .extra-mile-right-img img {
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+  }
+  .extra-mile {
+    max-width: auto;
+    margin-right: 24px;
+    margin-left: 24px;
+    padding: 10px;
+  }
+  .extra-mile-container {
+    padding: 0.5rem 0.3rem;
+  }
+  .training-top-container h2 {
+    font-size: 1.5rem;
+  }
+  .para-container-1 {
+    padding: 10px;
+  }
+  .training-para-1,
+  .training-para-3,
+  .training-para-4,
+  .training-para-5,
+  .training-para-6 {
+    margin: 3px;
+    font-size: 0.6rem;
+  }
+  .training-para-2 {
+    font-size: 0.5rem;
+  }
+  .footer-top-left-container h3 {
+    font-size: 2rem;
+  }
+}

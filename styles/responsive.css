@@ -57,6 +57,9 @@
   .navbar-icon {
     display: block;
   }
+  .navbar ul {
+    padding: 0;
+  }
   .header-navbar-container .navbar ul {
     border: none;
   }
@@ -146,12 +149,13 @@
     row-gap: 2.5rem;
   }
   .habit-card-container {
+    margin-bottom: 1.5rem;
   }
   /* responsive extra mile */
   .extra-mile {
     max-width: 22.06rem;
     margin-bottom: 4.1rem;
-    /* border: 2px solid green; */
+    /* */
   }
   .extra-mile-container {
     flex-direction: column;
@@ -303,6 +307,7 @@
   }
   .training-para-4 {
     font-size: 0.9rem;
+    margin-left: 10px;
   }
   .para-container-5 {
     display: flex;
