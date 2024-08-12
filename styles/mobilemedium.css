@@ -2,7 +2,7 @@
   .container {
     max-width: auto;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 20px 24px;
   }
   .banner-left-container {
     max-width: auto;
@@ -35,6 +35,9 @@
   }
   .header-navbar-container {
     max-width: auto;
+  }
+  .header-container {
+    padding: -20px 0px;
   }
   .banner-title {
     max-width: auto;
