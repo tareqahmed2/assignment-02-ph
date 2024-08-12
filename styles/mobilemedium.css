@@ -2,7 +2,7 @@
   .container {
     max-width: auto;
     margin: 0 auto;
-    padding: 20px 24px;
+    padding: 20px;
   }
   .banner-left-container {
     max-width: auto;
@@ -69,6 +69,11 @@
   .footer-top-left-container {
     max-width: auto;
   }
+  /* ntg */
+  .left-btn,
+  .right-btn {
+    font-size: 0.8rem;
+  }
   .extra-mile-right-img {
     display: flex;
     justify-content: center;
@@ -77,6 +82,35 @@
     width: 100%;
     height: 100%;
     padding: 0 5px;
+  }
+  .extra-mile {
+    max-width: auto;
+    margin-right: 24px;
+    margin-left: 24px;
+    padding: 10px;
+  }
+  .extra-mile-container {
+    padding: 0.5rem 0.3rem;
+  }
+  .training-top-container h2 {
+    font-size: 1.5rem;
+  }
+  .para-container-1 {
+    padding: 10px;
+  }
+  .training-para-1,
+  .training-para-3,
+  .training-para-4,
+  .training-para-5,
+  .training-para-6 {
+    margin: 3px;
+    font-size: 0.6rem;
+  }
+  .training-para-2 {
+    font-size: 0.5rem;
+  }
+  .footer-top-left-container h3 {
+    font-size: 2rem;
   }
   .extra-mile {
     max-width: auto;
