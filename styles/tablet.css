@@ -2,7 +2,7 @@
   .container {
     max-width: auto;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 30px 24px;
   }
   .banner-left-container {
     max-width: auto;
@@ -80,14 +80,17 @@
     row-gap: 50px;
     padding-bottom: 100px;
   }
+  .extra-mile {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .extra-mile-container {
     width: 100%;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 66px;
-    padding: 50px 0;
+    padding: 30px 10px;
   }
   .extra-mile-left-container h2 {
     font-size: 2.5rem;
