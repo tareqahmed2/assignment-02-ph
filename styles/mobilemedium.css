@@ -138,6 +138,14 @@
   .training-para-2 {
     font-size: 0.5rem;
   }
+  .meet-bg-text-content-1 p,
+  .meet-bg-text-content-2 p,
+  .meet-bg-text-content-3 p,
+  .meet-bg-text-content-4 p,
+  .meet-bg-text-content-5 p,
+  .meet-bg-text-content-6 p {
+    font-size: 0.8rem;
+  }
   .footer-top-left-container h3 {
     font-size: 2rem;
   }
