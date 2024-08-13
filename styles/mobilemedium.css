@@ -149,4 +149,22 @@
   .footer-top-left-container h3 {
     font-size: 2rem;
   }
+  .img-container-1 {
+    background-image: url("../images/exercise1.jpg");
+  }
+  .img-container-2 {
+    background-image: url("../images/exercise2.png");
+  }
+  .img-container-3 {
+    background-image: url("../images/exercise3.png");
+  }
+  .img-container-4 {
+    background-image: url("../images/exercise3.png");
+  }
+  .img-container-5 {
+    background-image: url("../images/exercise4.png");
+  }
+  .img-container-6 {
+    background-image: url("../images/exercise5.jpg");
+  }
 }

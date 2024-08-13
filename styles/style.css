@@ -57,7 +57,7 @@ button {
   margin-bottom: 2rem;
 }
 
-.header-navbar-container ul {
+.navbar-ul {
   display: flex;
   justify-content: space-around;
   gap: 3.2rem;
@@ -74,7 +74,7 @@ button {
   padding: 0.625rem 0.93rem;
 }
 
-.header-navbar-container ul li a {
+.href {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
@@ -82,7 +82,7 @@ button {
   text-align: left;
 }
 
-.header-container ul li a span {
+.navbar-anchor-span {
   border-radius: 3rem;
   padding: 0.625rem 1.25rem;
   background-color: rgb(230, 83, 60);
@@ -471,6 +471,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.4s;
 }
 
 /* #res */
@@ -505,6 +506,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: cover;
+  transition: 0.4s;
 }
 
 .training-para-2 {
@@ -532,6 +534,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.4s;
 }
 
 .training-para-3 {
@@ -561,6 +564,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.4s;
 }
 
 .para-container-4 {
@@ -589,6 +593,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.4s;
 }
 
 .para-container-5 {
@@ -630,6 +635,31 @@ tra5 .training-para-6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  transition: 0.4s;
+}
+
+.img-container-1:hover {
+  background-image: url("../images/exercise1.jpg");
+}
+
+.img-container-2:hover {
+  background-image: url("../images/exercise2.png");
+}
+
+.img-container-3:hover {
+  background-image: url("../images/exercise3.png");
+}
+
+.img-container-4:hover {
+  background-image: url("../images/exercise4.png");
+}
+
+.img-container-5:hover {
+  background-image: url("../images/exercise5.jpg");
+}
+
+.img-container-6:hover {
+  background-image: url("../images/exercise6.jpg");
 }
 
 .training-para-6 {

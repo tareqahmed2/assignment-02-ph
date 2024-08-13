@@ -51,12 +51,61 @@
   .header-navbar-container {
     max-width: 353px;
   }
-  .header-navbar-container ul li {
+  /* for javascript funtionality */
+  .hambar {
+    position: relative;
+  }
+  .anchor-links {
+    display: block;
+    position: absolute;
+  }
+  .hidden {
     display: none;
   }
+  .visible {
+    display: block;
+  }
+  .line {
+    margin-top: 10px;
+  }
+  .navbar-ul {
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: end;
+  }
+  .line-1 {
+    top: 110px;
+  }
+  .line-2 {
+    top: 130px;
+  }
+  .line-3 {
+    top: 150px;
+  }
+  .line-4 {
+    top: 170px;
+  }
+  .line-5 {
+    top: 190px;
+  }
+  .href {
+    font-size: 0.8rem;
+  }
+  .href:hover {
+    background-color: tomato;
+    padding: 4px;
+  }
+  .navbar-anchor-span {
+    background-color: transparent;
+    padding: 0;
+  }
+  /* end javascript funtionality */
   .navbar-icon {
     display: block;
   }
+  /* .navbar-ul {
+    flex-direction: column;
+  } */
   .navbar ul {
     padding: 0;
   }
