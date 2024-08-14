@@ -1,3 +1,4 @@
+@import url("https://fonts.cdnfonts.com/css/miama");
 * {
   padding: 0;
   margin: 0;
@@ -126,8 +127,8 @@ button {
   font-weight: 400;
   /* font-size: 0.8rem */
   /* color: rgb(25, 25, 26);  */
-  font-family: "Allura", cursive;
-  font-size: 7rem;
+  font-family: "Miama", sans-serif;
+  font-size: 8rem;
 }
 
 .banner-left-container p {
